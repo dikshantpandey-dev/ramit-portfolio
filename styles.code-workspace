@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "styles",
+			"path": "../Downloads/styles"
+		},
+		{
+			"name": "ramit-portfolio",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "styles"
+	}
+}
