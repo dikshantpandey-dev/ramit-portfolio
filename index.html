@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta property="og:image" content="https://www.facebook.com/photo/?fbid=179360535263505&set=a.103278632871696">
+<meta name='keywords' content='Ramit Neupane,Ramit Npn ,Ramit'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ramit Neupane - CEO of cornor tech ( IT company ) . ">
+<meta name="title" content="Ramit Neupane  ">
+<title>Ramit Neupane</title>
+    
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="icon" href="./img/fab_logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/0f467026c9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "106588519203607");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v18.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/ramit1.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Ramit Neupane.</span>
+                    I'm A  <span class="multiple-text"></span>.
+                </h1>
+                    <!---------------Java Script ------->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed(".multiple-text", {
+            strings: ["Web Developer", "Video Editor", "Social Media Manager", "Freelancer" , "Graphic Designer" , "Business Strategiest" ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+        </script>
+         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+         <script src="https://smtpjs.com/v3/smtp.js"></script>
+         
+         <script>
+         function send() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    if (!name || !email || !message) {
+        swal("Error!", "Please fill out your name,message and email.", "error");
+        return;
+    }
+
+    if (!message) {
+        message = "No message provided";
+    }
+
+    var body = "Name: " + name + "<br/> Email: " + email + "<br/> Message: " + message;
+
+    Email.send({
+        SecureToken: "3a202945-663e-4fcd-b00e-da2bf2468036",
+        To: 'contact.cornortech@gmail.com',
+        From: "contact.cornortech@gmail.com",
+        Subject: message || "No Subject",
+        Body: body
+    }).then(function (message) {
+        if (message === 'OK') {
+            swal("Success!", "Your Data Has Been Received Successfully", "success");
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+        } else {
+            swal("Something Went Wrong!", "Your data can't be received", "error");
+        }
+    }).catch(function (error) {
+        console.error("Error sending email:", error);
+        swal("Error!", "There was an error sending your message. Please try again later.", "error");
+    });
+}
+                   </script>
+                <p>
+                    Greetings, I am Ramit Neupane, also known as Mr Cornor with a deep-seated passion for my field, alongside a diverse range of other pursuits, including graphic design, gaming, social work, and engagement in Swarm. To gain a comprehensive understanding of my skills and capabilities, I invite you to peruse my portfolio.
+                </p>
+                <div class="btn-con">
+                    <a href="https://www.freelancer.com/u/RamitNeupane" class="main-btn">
+                        <span class="btn-text">Hire Me </span>
+                        <span class="btn-icon"><i class="fa-solid fa-envelope-open"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        Greetings, I am Ramit, a multifaceted creative specialist with a fervent dedication to transforming digital concepts into reality. Proficient in the realms of graphic design, programming, gaming, and community management, I have embarked on an exhilarating odyssey within the spheres of technology and design. It is my pleasure to offer you a glimpse into this intriguing journey.
+                    </p>
+                    <div class="btn-con">
+                        <a href="https://www.freelancer.com/u/RamitNeupane" class="main-btn">
+                            <span class="btn-text">Hire Me </span>
+                            <span class="btn-icon"><i class="fa-solid fa-envelope-open"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">40+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Happy <br /> Clients</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">20+</p>
+                            <p class="small-text">Customer <br /> reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Web Development</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="web"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Graphics Designing</p>
+                        <div class="progress-con">
+                            <p class="prog-text">89%</p>
+                            <div class="progress">
+                                <span class="gfx"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Business Strategies</p>
+                        <div class="progress-con">
+                            <p class="prog-text">66%</p>
+                            <div class="progress">
+                                <span class="busi"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Video Editing</p>
+                        <div class="progress-con">
+                            <p class="prog-text">44%</p>
+                            <div class="progress">
+                                <span class="vdo"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Communication</p>
+                        <div class="progress-con">
+                            <p class="prog-text">91%</p>
+                            <div class="progress">
+                                <span class="comm"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Social Media Management</p>
+                        <div class="progress-con">
+                            <p class="prog-text">96%</p>
+                            <div class="progress">
+                                <span class="social"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - present</p>
+                    <h5>Founder<span> - Neplo Network</span></h5>
+                    <p>
+                        I serve as the founder of Neplo Network, a prominent Minecraft server. My journey in the field of development was inaugurated through this ambitious venture.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - Present</p>
+                    <h5>CEO<span> - Cornor Tech</span></h5>
+                    <p>
+                        Having acquired knowledge and insights in the field of computer science, I founded Corner Technology, a company offering comprehensive IT solutions and services.
+
+
+
+
+
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - Present</p>
+                    <h5>Graphic Designer <span> - Elegance Garments</span></h5>
+                    <p>
+                        This marks my inaugural foray into gainful employment, where I specialize in crafting graphic designs for the textile industry. This role is a part-time engagement.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - Present</p>
+                    <h5> Video Editor <span> - Learn Nepal Pvt Ltd. </span></h5>
+                    <p>
+                        This marks my inaugural foray into gainful employment, where I specialize in editing educational videos for Learn Nepal Pvt. Ltd. This role is a part-time engagement.
+                    </p>
+                </div>
+               
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Presented below are a selection of my most recent projects.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/kmgss.png" alt="Kalika">
+                    </div>
+                    <div class="hover-items">
+                      <p>I had the privilege of creating a website for Kalika Manavgyan Secondary School as part of a client's project work.
+                      </p>
+                        <div class="icons">
+                            <a href="Projects/Code">
+                                
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/cornortech.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <p>I conceptualized and spearheaded the development of the website for Cornor Tech, a firm that I established.</p>
+                        <div class="icons">
+                            <a href="www.cornortech.com">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/elegance.png" alt="Elegance">
+                    </div>
+                    <div class="hover-items">
+                        <p>I am a seasoned graphic designer with experience in crafting logos, including one for Elegance Garment. .</p>
+                        <div class="icons">
+                            <a href="img/elegance.png">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/neplo.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <p>I am entrusted with the responsibility of creating essential designs and graphics at Neplo Network. .</p>
+                        <div class="icons">
+                            <a href="img/neplo.png">
+                              
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/balmaitri.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <p>I have a deep passion for contributing to social causes, which led me to design a logo for Balmaitri Nepal.</p>
+                        <div class="icons">
+                            <a href="img/balmaitri.png">
+                               
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/aayush.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <p>I had the privilege of creating the logo design for one of my esteemed clients, Mr. Aayush Poudel.</p>
+                        <div class="icons">
+                           
+                                <a href="img/aayush.png">
+                                  
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-title">
+                    <h2>And <span> swarm..!</span></h2>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Why <span>Me?</span><span class="bg-text">Why Me ?</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Experienced
+                            </h4>
+                            <p>
+                                I am a seasoned web developer specializing in creating engaging and user-friendly websites. With expertise in design and functionality, I craft compelling online experiences to showcase my skills and achievements.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                               Non Copyright Graphics
+                            </h4>
+                            <p>
+                                Discover my portfolio featuring original, non-copyrighted graphics. Every design is crafted to enhance your website while respecting copyright laws and ensuring a unique, legally compliant digital presence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Less Time To Build
+                            </h4>
+                            <p>
+                                Efficient web development, crafting sleek portfolios in record time. Combining speed and creativity for impressive digital showcases. Let's turn ideas into websites, fast and stunning.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                More Interactive And User Friendly
+                            </h4>
+                            <p>
+                                I specialize in crafting visually appealing websites with intuitive navigation, engaging content, and seamless user experience, ensuring an interactive and user-friendly design.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                User Customizeable
+                            </h4>
+                            <p>
+                                Welcome to our user-friendly portfolio website! Customize your showcase effortlessly, ensuring a personalized experience that perfectly represents your work and style.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Low Price , High Quality
+                            </h4>
+                            <p>
+                                Crafting websites with exceptional quality at affordable prices. Explore our portfolio showcasing stunning, budget-friendly web solutions. Your vision, our expertise.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Reach Me</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            Please feel free to reach out to me using the provided contact information or by sending a direct email through this platform. I would recommend contacting me via the provided contact details as it allows for a more efficient and timely response, whereas messages sent through this platform may involve a longer follow-up process.
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location : Butwal , Nepal</span>
+                                </div>
+                                <p>
+                                
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email  : ramitnpn986@gmail.com</span>
+                                </div>
+                                <p>
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education : Kalika Manavgyan</span>
+                                </div>
+                                <p>
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone-volume"></i>
+                                    <span>Mobile Number : 9867387360</span>
+                                </div>
+                                <p>
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages: Nepali, English, Hindi</span>
+                                </div>
+                                <p>
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/ramitnpn1" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/Ramit_Neupane" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@ramitneupane01" target="_blank">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                                <a href="https://www.instagram.com/ramitnpn1/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required id="name" name="name" placeholder="YOUR NAME">
+                                <input type="email" required id="email" name="email" placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required id="subj" name="subj"  placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="message" name="message" cols="15" id="message" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="btn-cons">
+                                <a href=# class="main-btn">
+                                    <span class="btn-text" onclick="send()">Send</span>
+                                    <span class="btn-icon"><i class="fa-solid fa-envelope-open"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
+
